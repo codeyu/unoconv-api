@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM codeyu/ubuntu-windowsfonts:latest
 
 MAINTAINER codeyu <codeyu@gmail.com>
 
