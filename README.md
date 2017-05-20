@@ -15,5 +15,5 @@ See all possible conversions on the [unoconv website](http://dag.wiee.rs/home-ma
 The API for the webservice is /unoconv/{format-to-convert-to} so a docx to pdf conversion would be:
 
 ```sh
-$ curl --form file=@myfile.docx http://192.168.0.111/unoconv/pdf > myfile.pdf
+$ curl --form file=@myfile.docx http://localhost:8080/unoconv/pdf > myfile.pdf
 ```
